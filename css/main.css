@@ -1,0 +1,144 @@
+html {
+  height: 100vh;
+}
+body {
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu_item {
+  display: flex;
+  justify-content: end;
+}
+li {
+  list-style: none;
+  padding: 5px 15px;
+
+  vertical-align: auto;
+}
+.menu_punteado {
+  height: 30px;
+  width: 30px;
+  padding-bottom: 50px;
+}
+.picture_photo {
+  padding-right: 20px;
+}
+.picture_photo img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: none;
+}
+#img_content {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+#img_content img {
+  width: 25%;
+}
+.search_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.input_search {
+  width: 40%;
+  border-radius: 24px;
+  padding: 15px;
+  border: 0.5px solid gray;
+}
+.input_search:hover {
+  cursor: pointer;
+}
+.establish_position {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#lupa_icon {
+  width: 25px;
+  height: 25px;
+  padding-left: 10px;
+  position: absolute;
+  left: -600px;
+  top: 10px;
+}
+.establish_positionLens {
+  display: flex;
+  justify-content: center;
+}
+
+.icon_lensandMic #hola {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -80px;
+  top: 10px;
+}
+.img_mic_icon_google #chao {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -35px;
+  top: 15px;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+.button_style {
+  margin-top: 40px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 11px 4px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+.info_google {
+  display: flex;
+  justify-content: center;
+}
+.style_parrafo {
+  padding: 10px;
+}
+footer {
+  background-color: #f7f8f9;
+  width: 100%;
+  margin-top: auto;
+}
+.name_country {
+  padding: 15px 30px;
+  font-size: 14px;
+}
+
+.footer_pie {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+hr {
+  color: #ebedee;
+  width: 100%;
+}
+.container_footer_left {
+  display: flex;
+  padding: 0 20px;
+}
+.container_footer_right {
+  display: flex;
+  justify-content: end;
+  padding: 0 20px;
+}
