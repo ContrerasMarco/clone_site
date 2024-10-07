@@ -29,13 +29,11 @@ body {
 .menu_punteado {
   height: 30px;
   width: 30px;
+  padding: 2px;
 }
 .menu_punteado:hover {
-  height: 30px;
-  height: 30px;
   border-radius: 50%;
-  background-color: #c2c7cb;
-  padding: 2px;
+  background-color: rgb(200, 207, 213);
 }
 
 .picture_photo img {
@@ -96,24 +94,24 @@ body {
   justify-content: center;
 }
 
-.icon_lensandMic #hola {
+.icon_lensandMic #img_mic {
   width: 30px;
   height: 30px;
   position: absolute;
   left: -80px;
   top: 10px;
 }
-.icon_lensandMic #hola:hover {
+.icon_lensandMic #img_mic:hover {
   cursor: pointer;
 }
-.img_mic_icon_google #chao {
+.img_mic_icon_google #img_lens {
   width: 20px;
   height: 20px;
   position: absolute;
   left: -35px;
   top: 15px;
 }
-.img_mic_icon_google #chao:hover {
+.img_mic_icon_google #img_lens:hover {
   cursor: pointer;
 }
 .button_container {
@@ -142,6 +140,7 @@ body {
 .info_google {
   display: flex;
   justify-content: center;
+  font-size: 15px;
 }
 .style_parrafo {
   padding: 10px;
@@ -170,7 +169,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .container_footer_left {
