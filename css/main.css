@@ -15,10 +15,12 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
+  margin: 0;
 }
-li {
+.menu_item li {
   list-style: none;
   padding: 5px 15px;
+  font-size: 13px;
 }
 .menu_item li:hover {
   text-decoration: underline;
@@ -31,13 +33,11 @@ li {
 .menu_punteado:hover {
   height: 30px;
   height: 30px;
-  border-radius: 50px;
+  border-radius: 50%;
   background-color: #c2c7cb;
-  padding: 3px;
+  padding: 2px;
 }
-/*.picture_photo {
-  padding: 0 20px 30px;
-}*/
+
 .picture_photo img {
   border: none;
   height: 32px;
@@ -60,13 +60,21 @@ li {
   justify-content: center;
   margin-top: 25px;
 }
-.input_search {
+.input_container {
+  display: flex;
+  justify-content: center;
   width: 40%;
   border-radius: 24px;
-  padding: 15px;
+  padding: 10px;
   border: 0.5px solid gray;
 }
-.input_search:hover {
+.input_search {
+  width: 80%;
+  border: none;
+  outline: none;
+  height: 100%;
+}
+.input_container:hover {
   cursor: pointer;
   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
@@ -80,7 +88,7 @@ li {
   height: 25px;
   padding-left: 10px;
   position: absolute;
-  left: -600px;
+  left: -550px;
   top: 10px;
 }
 .establish_positionLens {
@@ -95,12 +103,18 @@ li {
   left: -80px;
   top: 10px;
 }
+.icon_lensandMic #hola:hover {
+  cursor: pointer;
+}
 .img_mic_icon_google #chao {
   width: 20px;
   height: 20px;
   position: absolute;
   left: -35px;
   top: 15px;
+}
+.img_mic_icon_google #chao:hover {
+  cursor: pointer;
 }
 .button_container {
   display: flex;
@@ -140,15 +154,16 @@ li {
   text-decoration: underline;
 }
 footer {
-  background-color: #f7f8f9;
+  background-color: #f2f2f2;
   width: 100%;
   margin-top: auto;
   height: auto;
 }
 .name_country {
-  padding: 10px 30px;
+  padding: 10px;
   font-size: 15px;
   color: black;
+  border-bottom: 1px solid gainsboro;
 }
 
 .footer_pie {
@@ -157,16 +172,33 @@ footer {
   justify-content: space-between;
   font-size: 15px;
 }
-hr {
-  color: #ebedee;
-  width: 100%;
-}
+
 .container_footer_left {
   display: flex;
-  padding: 0 20px;
+  list-style: none;
+}
+.container_footer_right li {
+  padding-right: 30px;
+}
+
+.container_footer_right li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 .container_footer_right {
   display: flex;
   justify-content: end;
-  padding: 0 20px;
+  list-style: none;
+  padding: 5px;
+}
+.container_footer_left li {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.container_footer_left li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.styleNameCountry {
+  padding-left: 20px;
 }
