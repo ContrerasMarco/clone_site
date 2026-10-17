@@ -9,8 +9,17 @@
       href="./assets/Google-favicon-2015.png"
       type="image/x-icon"
     />
-    <script src="https://js.sentry-cdn.com/63d22d9c0ece3708970c0bd42c8f892e.min.js"
-  crossorigin="anonymous"></script>
+   <script 
+  src="https://sentry-cdn.com" 
+  crossorigin="anonymous">
+</script>
+<script>
+  Sentry.onLoad(function() {
+    Sentry.init({
+      dsn: "https://sentry.io"
+    });
+  });
+</script>
     <title>Google</title>
   </head>
   <body>
